@@ -34,7 +34,7 @@ double a = 2.0/5;
 cout << a << endl;
 cout<< "2.00/5" <<endl;
 */
-
+/*
 int a = 2;
 int b = 4;
 
@@ -57,5 +57,15 @@ cout << fifth <<endl;
 
 bool sixth = (a>=b);
 cout << sixth <<endl; 
+*/
+
+int n;
+cin>> n;
+
+if ((n%2)==0){
+    cout<< "even";
+}
+else {cout<< "odd";
+}
 
 }
