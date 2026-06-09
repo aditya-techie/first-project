@@ -145,19 +145,49 @@ while(i<=n){
 cout<< "sum of all even numbers "<<sum;
 */
 
-float f;
+/*float f;
 cout<< "enter temperature in fahrenheit "<<endl;
 cin>> f ;
  
 float C;
 C = (f-32)*5/9;
 cout<< f << " fahrenheit = " << C << " degree celcius";
+*/
 
+/*int n;
+cin>> n ;
+int i = 2;
+while(i<n){
+if((n%i)==0)
+{cout<< "not prime"<<endl;}
+else{cout<<"prime"<<endl;}
+i=i+1;}
+*/
 
+/* int n ;
+cin>> n ;
 
+int row = 1;
+while(row<=n){
+    int col=1;
+    while(col<=n){
+    cout<< "*";
+    col=col+1;
+}cout<< endl;
+row=row+1;
+}  */        
 
+int n;
+cin>> n;
 
-
-
+int row=1;
+while(row<=n){
+    int col=1;
+    while(col<=n){
+        cout<< row << " " ;
+    col=col+1;
+}cout<<endl;
+row=row+1;
+}         
 
 }
